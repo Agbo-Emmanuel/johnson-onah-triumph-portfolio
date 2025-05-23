@@ -24,7 +24,7 @@ body{
             #000000cf,
             rgba(42, 37, 1, 0.824)
         ),
-        url('./images/hero_image.jpg');
+        url('./images/johnson_jonah_image.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body{
     padding-left: 100px;
 }
 .hero_item_container{
-    width: 50%;
+    width: 54%;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -116,8 +116,8 @@ body{
     line-height: 28px;
 }
 .hero_item_container > a > button{
-    width: 40%;
-    padding: 16px 0px;
+    width: max-content;
+    padding: 12px 40px;
     background-color: rgba(242, 209, 21, 0.965);
     color: #fff;
     font-size: 20px;
