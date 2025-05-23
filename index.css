@@ -551,7 +551,7 @@ textarea{
         display: flex;
     }
     .hero_body{
-        bottom: 120px;
+        bottom: 160px;
         padding-left: 16px;
     }
     .hero_item_container{
@@ -561,9 +561,6 @@ textarea{
         border-right: none;
         white-space: normal;
         animation: none;
-    }
-    .hero_item_container > a > button{
-        width: 60%;
     }
     .about_container{
         padding: 0px 16px;
