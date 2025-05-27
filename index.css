@@ -602,6 +602,25 @@ textarea{
         justify-content: space-between;
         padding: 20px 16px;
     }
+
+    .projects_section{
+        padding: 0 16px;
+    }
+    
+    .projects_section h1{
+        font-size: 24px;
+    }
+
+    .projects_card{
+        width: 100%;
+        padding: 20px 10px 20px;
+    }
+
+    .projects_card_top h3{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
 }
 
 @media screen and (max-width: 325px){
