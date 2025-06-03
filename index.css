@@ -246,6 +246,7 @@ body{
     font-weight: 500;
     line-height: inherit;
     position: relative;
+    padding-bottom: 6px;
 }
 
 .projects_section > h1::after{
