@@ -224,9 +224,9 @@ body{
 }
 
 .brands_item{
-    width: calc(100% / 5);
-    height: 100px;
-    /* background-color: lightgrey; */
+    width: calc((100% / 5) - 30px);
+    height: 150px;
+    /* background-color: grey; */
     object-fit: contain;
 }
 
@@ -721,7 +721,16 @@ textarea{
     }
 
     .brands_section h1{
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    .brands_item_container{
+        margin-top: 26px;
+    }
+
+    .brands_item{
+        width: calc((100% / 3) - 30px);
+        /* background-color: grey; */
     }
 
 }
@@ -736,5 +745,10 @@ textarea{
     }
     .hero_item_container{
         gap: 10px;
+    }
+
+    .brands_item{
+        width: calc((100% / 2) - 30px);
+        /* background-color: grey; */
     }
 }
